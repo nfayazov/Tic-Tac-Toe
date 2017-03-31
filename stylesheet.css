@@ -1,0 +1,49 @@
+#container {
+	display: block;
+	margin-left: auto; margin-right: auto;
+	/*margin-top: 5%; */
+	height: 500px; width: 500px;
+
+}
+
+h1 {
+	position: relative;
+	font-family: Helvetica;
+	font-size: 60px;
+	text-align: center;
+}
+
+#grid {
+	margin: auto;
+}
+
+.tableCell {
+	height: 120px; width: 120px;
+	background-color: #0033cc;
+	font-size: 80px; text-align: center;
+	border: 1px solid black;
+}
+
+.tableCell:hover {
+	background-color: #0066cc;
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px
+}
+
+#restart {
+	margin: auto;
+	margin-top: 15px;
+	height: 40px; width: 130px;
+	background-color: #3399ff;
+	font-size: 30px; text-align: center;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#restart:hover{
+	background-color: #0033cc;
+	cursor: pointer;
+}
